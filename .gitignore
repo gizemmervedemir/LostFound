@@ -1,0 +1,97 @@
+/vendor/
+/# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+build/
+vendor/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sql
+*.sqlite
+
+# Cache
+.cache/
+storage/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# PHP
+*.php~
+*.php.swp
+*.php.swo
+
+# Composer
+composer.lock
+composer.phar
+
+# Windows
+*.exe
+*.dll
+*.bat
+
+# macOS
+*.DS_Store
+
+# XAMPP
+htdocs/
+phpmyadmin/
+
+# Database credentials
+config/database.php
+
+# Session files
+sessions/
+
+# Cache files
+cache/
+
+# Logs
+logs/
+
+# Uploads
+uploads/
+
+# Compiled CSS and JS
+public/css/*.css
+public/js/*.js
+!public/css/style.css
+!public/js/main.js
+
+# Database
+*.sql
+*.sql.gz
+*.sql.zip
+
+# PHP error logs
+php_error.log
